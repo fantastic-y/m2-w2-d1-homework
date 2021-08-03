@@ -42,17 +42,6 @@ header {
     max-width: 100%;
     height: auto;
   }
-  @media only screen and (max-width: 600px) {
-    .card {
-      width: 100%;
-    }
-  }
-  @media only screen and (min-width: 600px) {
-    .cards {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-    }
-  }
   main h1 {
     color:rgb(129, 141, 179);
     font-family: arial;
@@ -63,4 +52,15 @@ header {
     text-align: center;
     padding-top: 20px;
     color:rgb(211, 218, 240);
+  }
+  @media (max-width: 600px) {
+    .card {
+      width: 100%;
+    }
+  }
+  @media (min-width: 600px) {
+    .cards {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
   }
